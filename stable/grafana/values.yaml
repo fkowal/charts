@@ -110,6 +110,12 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
+virtualservice:
+  enabled: false
+  prefix: /
+  gateways: []
+  hosts: []
+
 resources: {}
 #  limits:
 #    cpu: 100m
